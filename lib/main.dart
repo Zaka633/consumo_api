@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Dog Image App',
+      title: 'App do cachorro',
       theme: ThemeData(primarySwatch: Colors.brown),
       home: DogImageScreen(),
     );
@@ -54,7 +54,7 @@ class _DogImageScreenState extends State<DogImageScreen> {
       appBar: AppBar(
         backgroundColor: Colors.brown,
         title: Text(
-          'Cachorro cururu',
+          'App do cachorro',
           style: TextStyle(color: Colors.yellowAccent),
         ),
       ),
